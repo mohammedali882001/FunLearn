@@ -1,27 +1,3 @@
-let quizOne = {
-    "title": "General Quiz - Part 1",
-    "data": [
-        {
-            "id": "af0153c2-9860-48f2-bfd2-641111d59214",
-            "question": "The book is __ the shelf.",
-            "options": ["a. in", "b. above", "c. on", "d. beside"],
-            // Using btoa to encode the answer
-            "answer": btoa("on")
-        },
-        {
-            "id": "17870cb8-12fb-447e-82ed-78c655e5dfd7",
-            "question": "In a bingo game, which number is represented by the phrase “two little ducks”?",
-            "options": ["11", "8", "22", "10"],
-            "answer": "MjI="
-        },
-        // ... (more questions)
-    ],
-    "createdAt": "Mon, 24 Jan 2022 11:41:13 GMT",
-    "timePerQuestion": "30",
-    "totalTime": "120",
-    "type": "quiz"
-};
-
 
 let quizTwo = {
     "title": "English Quiz - Prepositions",
@@ -77,7 +53,7 @@ let quizTwo = {
             "answer": btoa("c. on")
         }
     ],
-    "createdAt": "Mon, 20 Jan 2022 11:41:13 GMT",
+    "createdAt": "Mon, 1 Jan 2023 11:41:13 GMT",
     "timePerQuestion": "30",
     "tota lTime": "120",
     "type": "quiz"
@@ -138,7 +114,7 @@ let quizThree = {
             "answer": btoa("a. Rectangle")
         }
     ],
-    "createdAt": "Mon, 20 Jan 2022 11:41:13 GMT",
+    "createdAt": "Mon, 1 Jan 2023 11:41:13 GMT",
     "timePerQuestion": "30",
     "tota lTime": "120",
     "type": "quiz"

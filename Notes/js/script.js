@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var backToHome=document.querySelector(".btmBackToHome");
     backToHome.addEventListener("click",function(){
-        window.location.href = "../project.html";
+        window.location.href = "../index.html";
 
     });
 });
