@@ -1,9 +1,9 @@
-// Create variables for the game state
+
 let player1Score = 0
 let player2Score = 0
 let player1Turn = true
 
-// Create variables to store references to the necessary DOM nodes
+
 const player1Dice = document.getElementById("player1Dice")
 const player2Dice = document.getElementById("player2Dice")
 const player1Scoreboard = document.getElementById("player1Scoreboard")
@@ -20,7 +20,7 @@ function showDisplayButton() {
 var clicked=document.getElementById('clickedId');
 var gameOver=document.getElementById('gameoverId');
 
-/* Hook up a click event listener to the Roll Dice Button. */
+
  rollBtn.addEventListener("click", function() {
     clicked.play();
     const randomNumber = Math.floor(Math.random() * 6) + 1
@@ -56,9 +56,7 @@ var gameOver=document.getElementById('gameoverId');
     player1Turn = !player1Turn
 })
  
-// 1. Hook a click event listener up with the Reset Button
-// 2. Create a reset() function that resets the game
-// 3. Invoke the reset() function when the Reset Button is clicked
+
 
 resetBtn.addEventListener("click", function(){
     reset()

@@ -38,11 +38,7 @@
    
 }
 
-/* #close {
-    position: absolute;
-    top: 50px;
-    right: 50px;
-} */
+
 
 .active{
     display: flex;
@@ -51,7 +47,7 @@
 
 .changeColor{
     color: white;
-    /* z-index: 999 !important; */
+    
     
 }
 

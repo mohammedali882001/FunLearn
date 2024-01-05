@@ -14,7 +14,7 @@ const audioElements = [
   document.getElementById("audio6"),
   document.getElementById("audio7"),
   document.getElementById("audio8"),
-  // Add more audio elements for each image
+  
 ];
 
 
@@ -40,13 +40,13 @@ function updateGallery() {
 }
 
 function playAudio(audio) {
-  // Pause any currently playing audio
+  
   if (currentAudio && !currentAudio.paused) {
     currentAudio.pause();
     currentAudio.currentTime = 0;
   }
 
-  // Play the new audio
+ 
   audio.play();
 }
 
@@ -65,36 +65,3 @@ updateGallery();
 
 
 
-
-
-
-
-//old code
-
-
-// const imageContainerEl = document.querySelector(".image-container");
-
-// const prevEl = document.getElementById("prev");
-// const nextEl = document.getElementById("next");
-// let x = 0;
-// let timer;
-// prevEl.addEventListener("click", () => {
-//   x = x + 45;
-//   clearTimeout(timer);
-//   updateGallery();
-// });
-// nextEl.addEventListener("click", () => {
-//   x = x - 45;
-//   clearTimeout(timer);
-//   updateGallery();
-// });
-
-// function updateGallery() {
-//   imageContainerEl.style.transform = `perspective(1000px) rotateY(${x}deg)`;
-//   timer = setTimeout(() => {
-//     x = x - 45;
-//     updateGallery();
-//   }, 10000);
-// }
-
-// updateGallery();

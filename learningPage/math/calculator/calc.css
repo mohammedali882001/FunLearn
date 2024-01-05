@@ -89,13 +89,13 @@ background-color:#e7d57c ;
     justify-content: center;
     margin-top: 20px; }
 
-    /* Add your custom styles for the calculator here */
+    
 .calculator {
-    max-width: 400px; /* Adjust the maximum width of the calculator */
-    margin: 0 auto; /* Center the calculator horizontally */
+    max-width: 400px; 
+    margin: 0 auto; 
 }
 
-/* Add your custom styles for the footer here */
+
 .memoryfooter {
     position: fixed;
     bottom: 0;
@@ -106,7 +106,7 @@ background-color:#e7d57c ;
 
 .center-button {
     text-align: center;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px; 
 }
 
 /* Responsive Styles */
@@ -120,7 +120,7 @@ background-color:#e7d57c ;
     }
 }
 
-/* Additional styling for smaller screens if needed */
+
 @media screen and (max-width: 768px) {
     .center-button {
         margin-top: 10px;

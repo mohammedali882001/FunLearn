@@ -66,7 +66,7 @@ function shuffleArray(array) {
   //back button
   var backButton = document.querySelector('.back-btn');
 
-            // Add a click event listener to the button
+            
             backButton.addEventListener('click', function() {
-                // Navigate to the index.html page
+               
                 window.location.href = 'index.html';})

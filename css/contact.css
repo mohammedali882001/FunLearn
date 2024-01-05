@@ -1,8 +1,6 @@
 
 .image {
-    /* padding: 0px;
-    height: 450px;
-    margin-bottom: 10px;  */
+    
     position: relative;
 }
 
@@ -47,20 +45,20 @@
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-     /* Adjust the spacing between icon items as needed */
+    
 }
 
 .icon-item i {
    
-    font-size: 24px; /* Adjust the size as needed */
-    margin-right: 10px; /* Adjust the spacing between icon and text as needed */
-    color: #fff; /* Adjust the color as needed */
+    font-size: 24px; 
+    margin-right: 10px; 
+    color: #fff; 
 }
 
 .icon-item p {
     font-size: bold;
     margin: 0;
-    color: #fff; /* Adjust the color as needed */
+    color: #fff; 
 }
 .text-FOOTER{
     color:white;

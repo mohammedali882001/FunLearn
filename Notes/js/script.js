@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var noteTitle = this.querySelector("h2").textContent;
             var noteContent = this.querySelector("p").textContent;
 
-            // Get the index of the parent <li> element
+            
             var noteIndex = Array.from(this.closest("li").parentNode.children).indexOf(this.closest("li"));
 
             var itemKey = "note_" + noteIndex;
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     allNotes.forEach(function (note) {
-        // Get the index of the parent <li> element
+        
         var noteIndex = Array.from(note.closest("li").parentNode.children).indexOf(note.closest("li"));
         var itemKey = "note_" + noteIndex;
         var data = JSON.parse(window.localStorage.getItem(itemKey));

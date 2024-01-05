@@ -33,7 +33,7 @@ document.getElementById("startreset").onclick = function() {
         hide("gameOver");
 
 
-        document.getElementById("startreset").innerHTML = "Reset Game";
+        document.getElementById("startreset").innerHTML = "Reset Test";
 
 
 
